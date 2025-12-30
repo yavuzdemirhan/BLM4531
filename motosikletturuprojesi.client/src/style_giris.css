@@ -1,0 +1,73 @@
+
+/* Form sayfasının ana section'ı */
+.auth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* İçeriği yatayda ortalar */
+    justify-content: center;
+    min-height: 70vh; /* Header ve footer arasında boşluk bırakır */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Formu içeren beyaz kutu (style_home.css'teki .kutu'yu temel alır) */
+.form-kutu {
+    width: 100%;
+    max-width: 500px; /* Formun çok genişlemesini engeller */
+    padding: 40px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75); /* Header'daki gibi gölge */
+}
+
+.form-kutu form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Form elemanları arası boşluk */
+}
+
+/* Label + Input grubunu saran div */
+.input-grup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Form etiketleri (Label) */
+.input-grup label {
+    font-size: 24px; 
+    color: var(--siyah-renk); /* style_home.css'ten gelir */
+    margin-bottom: 5px;
+}
+
+/* Form giriş alanları (Input) */
+.input-grup input {
+    font-family: 'Teko', sans-serif; /* style_home.css'ten gelir */
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-transform: none; /* Global 'capitalize' kuralını ezer */
+}
+
+/* Formdaki yönlendirme linki (örn: Hesabın yok mu?) */
+.auth-link-yonlendirme {
+    font-size: 18px;
+    color: var(--siyah-renk);
+    text-align: center;
+    margin-top: 25px;
+    text-transform: none; /* Global 'capitalize' kuralını ezer */
+}
+
+.auth-link-yonlendirme a {
+    color: var(--ana-renk); /* style_home.css'ten gelir */
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    /* Form kutusunun padding'ini azalt */
+    .form-kutu {
+        padding: 25px;
+    }
+}

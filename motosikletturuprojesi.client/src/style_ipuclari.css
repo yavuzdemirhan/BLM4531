@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+ 
+:root{
+    --ana-renk: #001344;
+    --siyah-renk: #121212;
+    --border: 1px solid rgba(255,255,255,0.3);
+} 
+
+*{
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+ 
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 90px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--ana-renk);
+}
+
+section{
+    padding: 35px 7%;
+}
+
+.baslik{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid white;
+}
+
+.baslik span{
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.buton{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 20px 37.5px;
+    border-radius: 300px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.buton:hover{
+    opacity: 0.5;
+}
+/* HEADER BAŞLANGICI */
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 20px 7%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0.75);
+    position: sticky ;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar a{
+    margin: 0 10px;
+    font-size: 16px;
+    color: white;
+    border-bottom: 1.5px solid transparent;
+}
+
+.header .navbar a:hover{
+    border-color: blue;
+    padding-bottom: 5px;
+}
+
+.header .aboutandcontact a{
+    margin: 0 10px;
+    font-size: 16px;
+    color: white;
+    border-bottom: 1.5px solid transparent;
+}
+
+.header .aboutandcontact input{
+    margin-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.header .aboutandcontact a:hover{
+    border-color: blue;
+    padding-bottom: 5px;
+}
+
+ .logo img{
+        width: 71px;
+ }
+/* HEADER BİTİŞİ */
+
+/* HOME BAŞLANGICI */
+.home-ipuclari{
+    min-height: 100vh;
+    background: url(../resimler/bradley-dunn-omEIcPs_WxU-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -110px;
+    display: flex;
+    align-items: center;
+}
+
+.home-ipuclari .content{
+    max-width: 600px;
+}
+.home-ipuclari .content h3{
+    font-size: 70px;
+    color: white;
+}
+.home-ipuclari .content p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+}
+/* HOME BİTİŞ */
+
+.teknik .yazi{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.teknik .yazi .foto{
+    flex: 1 1 450px;
+}
+
+.teknik .yazi img{
+    width: 100%;
+    height: 100%;
+    border: solid white;
+}
+
+.teknik .yazi .content{
+    flex: 0.5 0.5 450px;
+}
+
+.teknik .yazi h3{
+    color: white;
+    font-size: 50px;
+}
+
+.teknik .yazi p{
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+    line-height: 1.8;
+    text-transform: none;
+}
+
+.teknik .yazi h2{
+    font-size: 26px;
+    color: yellow;
+    padding: 5px 0;
+    line-height: 1.8;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+.teknik .yazi h1{
+    font-size: 23px;
+    color: white;
+    padding: 5px 0;
+    line-height: 1.8;
+    text-transform: none;
+}
+
+.teknik{
+    min-height: 90vh;
+}
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+footer h3{
+    color:  white;
+    font-size: 50px;
+}
+
+footer p{
+    color: white;
+    font-size: 25;
+}
+
+footer .sosyal{
+    display: inline-flex;
+    padding: 10px;
+}
+
+footer .sonyazi{
+    color: red;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.sosyal img{
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 0 6px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sosyal .facebook img:hover{
+    background-color: #4267B2;
+    transition: 0.5s all;
+}
+
+.sosyal .twitter img:hover{
+    background-color: #1da1f2;
+    transition: 0.5s all;
+}
+
+.sosyal .google img:hover{
+    background-color: #d34c3d;
+    transition: 0.5s all;
+}
+
+.sosyal .instagram img:hover{
+    background-color: #7315c6;
+    transition: 0.5s all;
+}
+
+.sosyal .youtube img:hover{
+    background-color: #fe0000;
+    transition: 0.5s all;
+}
+
+.sosyal a:hover > img{
+    transform: scale(1.6) rotate(360deg);
+}
+
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 15px 20px;
+    }
+
+    .header .logo img{
+        height: 70px;
+
+    }
+
+    section{
+        padding: 20px;
+
+    }
+    .bestbikes .kutu-container .kutu .kutu-top .motor-kategori {
+        font-size: 34px;
+
+    }
+
+
+}
+
+@media (max-width: 768px){
+    
+    .header .aboutandcontact input{
+        display: inline-block;
+    }
+    
+    .header .navbar{
+        position: absolute;
+        top: 95%;
+        background-color: black;
+        right: -100%;
+    }
+
+    .header .navbar.active{
+        right: 10px;
+        position: absolute;
+        top: 95%;
+        background-color: black;
+    }
+
+    .header .navbar a{
+        color: white;
+        display: block;
+        margin: 15px;
+        padding: 5px;
+        font-size: 20px;
+
+    }
+
+}

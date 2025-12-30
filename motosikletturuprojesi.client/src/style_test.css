@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+ 
+:root{
+    --ana-renk: #001344;
+    --siyah-renk: #121212;
+    --border: 1px solid rgba(255,255,255,0.3);
+} 
+
+*{
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+ 
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 90px;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--ana-renk);
+    margin: 0;
+}
+
+section{
+    padding: 35px 7%;
+}
+
+.baslik{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 35px;
+    border-bottom: 2px solid white;
+}
+
+.baslik span{
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.buton{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 20px 37.5px;
+    border-radius: 300px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.buton:hover{
+    opacity: 0.5;
+}
+/* HEADER BAŞLANGICI */
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 20px 7%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header .navbar a{
+    margin: 0 10px;
+    font-size: 16px;
+    color: white;
+    border-bottom: 1.5px solid transparent;
+}
+
+.header .navbar a:hover{
+    border-color: blue;
+    padding-bottom: 5px;
+}
+
+.header .aboutandcontact a{
+    margin: 0 10px;
+    font-size: 16px;
+    color: white;
+    border-bottom: 1.5px solid transparent;
+}
+
+.header .aboutandcontact input{
+    margin-left: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.header .aboutandcontact a:hover{
+    border-color: blue;
+    padding-bottom: 5px;
+}
+
+.logo img{
+        width: 71px;
+ }
+/* HEADER BİTİŞİ */
+
+/* HOME BAŞLANGICI */
+.home{
+    min-height: 100vh;
+    background: url(../resimler/alexey-malakhov-LZVkAbIw74Q-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -110px;
+    display: flex;
+    align-items: center;
+}
+
+.home .content{
+    max-width: 600px;
+}
+.home .content h3{
+    font-size: 80px;
+    color: white;
+}
+.home .content p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding: 10px 0;
+    color: white;
+}
+/* HOME BİTİŞ */
+
+/* BEST BİKES BAŞLANGICI */
+
+.bestbikes .kutu-container {
+    display: flex;        
+    flex-wrap: wrap;       
+    gap: 15px;             
+}
+
+.bestbikes .kutu-container .kutu {
+  
+    flex-basis: calc(20% - 12px); 
+    flex-grow: 0;   
+    flex-shrink: 1;
+
+   
+    min-width: 300px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bestbikes .kutu-container .kutu img{
+    width: 100%;
+    object-fit: cover;
+}
+.bestbikes .kutu-container .kutu .motor-kategori{
+    font-size: 20px;
+}
+.bestbikes .kutu-container .kutu h3{
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.bestbikes .kutu-container .kutu .filtre{
+    font-size: 25px;
+    padding: 10px 0;
+}
+/* BEST BİKES BİTİŞ */
+
+footer{
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+footer h3{
+    color:  white;
+    font-size: 50px;
+}
+
+footer p{
+    color: white;
+    font-size: 25;
+}
+
+footer .sosyal{
+    display: inline-flex;
+    padding: 10px;
+}
+
+footer .sonyazi{
+    color: red;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.sosyal img{
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 0 6px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.sosyal .facebook img:hover{
+    background-color: #4267B2;
+    transition: 0.5s all;
+}
+
+.sosyal .twitter img:hover{
+    background-color: #1da1f2;
+    transition: 0.5s all;
+}
+
+.sosyal .google img:hover{
+    background-color: #d34c3d;
+    transition: 0.5s all;
+}
+
+.sosyal .instagram img:hover{
+    background-color: #7315c6;
+    transition: 0.5s all;
+}
+
+.sosyal .youtube img:hover{
+    background-color: #fe0000;
+    transition: 0.5s all;
+}
+
+.sosyal a:hover > img{
+    transform: scale(1.6) rotate(360deg);
+}
+
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 15px 20px;
+    }
+
+    .header .logo img{
+        height: 70px;
+
+    }
+
+    section{
+        padding: 20px;
+
+    }
+    .bestbikes .kutu-container .kutu .kutu-top .motor-kategori {
+        font-size: 34px;
+
+    }
+
+
+}
+
+@media (max-width: 768px){
+    
+    .header .aboutandcontact input{
+        display: inline-block;
+    }
+    
+    .header .navbar{
+        position: absolute;
+        top: 95%;
+        background-color: black;
+        right: -100%;
+    }
+
+    .header .navbar.active{
+        right: 10px;
+        position: absolute;
+        top: 95%;
+        background-color: black;
+    }
+
+    .header .navbar a{
+        color: white;
+        display: block;
+        margin: 15px;
+        padding: 5px;
+        font-size: 20px;
+
+    }
+
+}
+
+/* ================================================= */
+/* === YENİ EKLENEN STİLLER (GİRİŞ/KAYIT/HEADER) === */
+/* ================================================= */
+
+/* 1. HEADER'DAKİ YENİ LİNKLER İÇİN GEREKLİ STİLLER */
+
+/* .aboutandcontact div'ini düzgünce hizalamak için flex yapıyoruz */
+.header .aboutandcontact {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem; /* Linkler ve mobil menü butonu arası boşluk */
+}
+
+/* Ana CSS'te .auth-link için bir stil yoktu, ekliyoruz */
+.header .auth-link {
+    margin: 0; /* Zaten 'a' elementinde 10px vardı, sıfırlayıp gap ile kontrol edebiliriz */
+    font-size: 16px;
+    color: white;
+    border-bottom: 1.5px solid transparent;
+}
+.header .auth-link:hover {
+    border-color: blue;
+    padding-bottom: 5px;
+}
+
+
+/* 2. YENİ GİRİŞ/KAYIT FORM SAYFASI STİLLERİ */
+
+/* Form sayfasının ana bölümü (ortalamak için) */
+.auth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Formu yatayda ortalar */
+    justify-content: center;
+    min-height: 70vh; /* Header ve Footer arası boşluk (dikey ortalama) */
+    padding-top: 50px; /* Mobil için üstten boşluk */
+    padding-bottom: 50px; /* Alttan boşluk */
+}
+
+/* Formu saran beyaz kutu (Senin .kutu stiline benzer) */
+.form-kutu {
+    width: 100%;
+    max-width: 500px; /* Formun çok geniş olmasını engeller */
+    padding: 40px;
+    background-color: white;
+    border-radius: 30px; /* Ana tasarımdaki gibi */
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75); /* Header'daki gibi gölge */
+}
+
+.form-kutu form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Form elemanları arası dikey boşluk */
+}
+
+/* Label + Input'u gruplayan div */
+.input-grup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Form etiketleri (Label) */
+.input-grup label {
+    font-size: 24px; /* Teko fontu için ideal */
+    color: var(--siyah-renk);
+    margin-bottom: 5px;
+}
+
+/* Form giriş alanları (Input) */
+.input-grup input {
+    font-family: 'Teko', sans-serif; /* Ana fontu miras al */
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Global reset'te border yoktu, ekliyoruz */
+    border-radius: 10px; /* Hafif yuvarlatılmış köşeler */
+    
+    /* ÖNEMLİ: Global '*' kuralı 'capitalize' yapıyor, 
+       e-posta ve şifre için bunu iptal etmeliyiz */
+    text-transform: none; 
+}
+
+/* Form altındaki yönlendirme linki */
+.auth-yonlendirme {
+    font-size: 18px;
+    color: var(--siyah-renk);
+    text-align: center;
+    margin-top: 25px;
+    text-transform: none; /* 'capitalize' kuralını iptal et */
+}
+
+.auth-yonlendirme a {
+    color: var(--ana-renk); /* Ana mavi rengi kullan */
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+/* 3. MOBİL UYUMLULUK DÜZELTMELERİ */
+
+@media (max-width: 768px){
+    
+    /* Mobilde Header'daki 'Kayıt Ol' ve 'Giriş Yap' linklerini GİZLE */
+    .header .auth-link {
+        display: none;
+    }
+    
+    /* Mobilde mobil menü butonu zaten görünür hale geliyordu, 
+       o kurala dokunmaya gerek yok. */
+
+    /* Mobilde form kutusu kenarlara çok yapışmasın */
+    .form-kutu {
+        padding: 25px;
+    }
+}
