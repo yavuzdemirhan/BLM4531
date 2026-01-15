@@ -1,1 +1,1 @@
-"#BLM4531" 
+.Server backend dosyamız .client ise frontend dosyamız.
