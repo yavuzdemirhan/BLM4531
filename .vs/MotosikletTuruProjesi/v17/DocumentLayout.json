@@ -18,9 +18,6 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Motorcycles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Notifications.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Participations.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
@@ -36,28 +33,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.UserFollows.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|c:\\users\\yavuz\\source\\repos\\motosikletturuprojesi\\motosikletturuprojesi.client\\src\\style_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|solutionrelative:motosikletturuprojesi.client\\src\\style_home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{48C57E13-6FDB-44F8-9480-7CA71268074F}|MotosikletTuruProjesi.Server\\MotosikletTuruProjesi.Server.csproj|c:\\users\\yavuz\\source\\repos\\motosikletturuprojesi\\motosikletturuprojesi.server\\controllers\\garagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C57E13-6FDB-44F8-9480-7CA71268074F}|MotosikletTuruProjesi.Server\\MotosikletTuruProjesi.Server.csproj|solutionrelative:motosikletturuprojesi.server\\controllers\\garagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|c:\\users\\yavuz\\source\\repos\\motosikletturuprojesi\\motosikletturuprojesi.client\\src\\pages\\etkinliklerim.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|solutionrelative:motosikletturuprojesi.client\\src\\pages\\etkinliklerim.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|c:\\users\\yavuz\\source\\repos\\motosikletturuprojesi\\motosikletturuprojesi.client\\src\\style_detay.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|solutionrelative:motosikletturuprojesi.client\\src\\style_detay.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|c:\\users\\yavuz\\source\\repos\\motosikletturuprojesi\\motosikletturuprojesi.client\\src\\pages\\turdetay.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|solutionrelative:motosikletturuprojesi.client\\src\\pages\\turdetay.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|c:\\users\\yavuz\\source\\repos\\motosikletturuprojesi\\motosikletturuprojesi.client\\src\\pages\\turekle.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|solutionrelative:motosikletturuprojesi.client\\src\\pages\\turekle.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|c:\\users\\yavuz\\source\\repos\\motosikletturuprojesi\\motosikletturuprojesi.client\\src\\pages\\profil.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{60EB1BB1-1480-4441-8F1A-A239E066AECF}|motosikletturuprojesi.client\\motosikletturuprojesi.client.esproj|solutionrelative:motosikletturuprojesi.client\\src\\pages\\profil.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{48C57E13-6FDB-44F8-9480-7CA71268074F}|MotosikletTuruProjesi.Server\\MotosikletTuruProjesi.Server.csproj|c:\\users\\yavuz\\source\\repos\\motosikletturuprojesi\\motosikletturuprojesi.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C57E13-6FDB-44F8-9480-7CA71268074F}|MotosikletTuruProjesi.Server\\MotosikletTuruProjesi.Server.csproj|solutionrelative:motosikletturuprojesi.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,7 +57,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:41:05.322Z",
+              "WhenOpened": "2026-01-15T14:22:32.619Z",
               "EditorCaption": ""
             },
             {
@@ -86,7 +67,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Comments.sql",
               "ToolTip": "dbo.Comments [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:41:01.093Z",
+              "WhenOpened": "2026-01-15T14:22:17.877Z",
               "EditorCaption": ""
             },
             {
@@ -96,17 +77,40 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.EmergencyInfos.sql",
               "ToolTip": "dbo.EmergencyInfos [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:57.987Z",
+              "WhenOpened": "2026-01-15T14:22:11.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Favorites [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Favorites.sql",
-              "ToolTip": "dbo.Favorites [Data]",
+              "DocumentIndex": 6,
+              "Title": "dbo.RouteStops [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.RouteStops.sql",
+              "ToolTip": "dbo.RouteStops [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:53.921Z",
+              "WhenOpened": "2026-01-15T14:21:53.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.TourRatings [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.TourRatings.sql",
+              "ToolTip": "dbo.TourRatings [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-15T14:21:50.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GarageController.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\MotosikletTuruProjesi.Server\\Controllers\\GarageController.cs",
+              "RelativeDocumentMoniker": "MotosikletTuruProjesi.Server\\Controllers\\GarageController.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\MotosikletTuruProjesi.Server\\Controllers\\GarageController.cs",
+              "RelativeToolTip": "MotosikletTuruProjesi.Server\\Controllers\\GarageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T14:15:34.154Z",
               "EditorCaption": ""
             },
             {
@@ -116,141 +120,61 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Motorcycles.sql",
               "ToolTip": "dbo.Motorcycles [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:50.968Z",
+              "WhenOpened": "2026-01-15T14:15:21.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dbo.Notifications [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Notifications.sql",
-              "ToolTip": "dbo.Notifications [Data]",
+              "DocumentIndex": 3,
+              "Title": "dbo.Favorites [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Favorites.sql",
+              "ToolTip": "dbo.Favorites [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:48.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.Participations [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Participations.sql",
-              "ToolTip": "dbo.Participations [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:45.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.RouteStops [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.RouteStops.sql",
-              "ToolTip": "dbo.RouteStops [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:32.564Z",
+              "WhenOpened": "2026-01-15T14:12:15.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "dbo.TourRatings [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.TourRatings.sql",
-              "ToolTip": "dbo.TourRatings [Data]",
+              "Title": "dbo.Tours [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Tours.sql",
+              "ToolTip": "dbo.Tours [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:30.356Z",
+              "WhenOpened": "2026-01-15T14:10:22.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Participations [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Participations.sql",
+              "ToolTip": "dbo.Participations [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-15T14:08:53.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "dbo.Tours [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.Tours.sql",
-              "ToolTip": "dbo.Tours [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:26.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "dbo.UserFollows [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/MotosikletTuruDB/True/SqlTable/dbo.UserFollows.sql",
               "ToolTip": "dbo.UserFollows [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-12-29T20:40:20.303Z",
+              "WhenOpened": "2026-01-15T14:08:47.835Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "style_detay.css",
-              "DocumentMoniker": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\style_detay.css",
-              "RelativeDocumentMoniker": "motosikletturuprojesi.client\\src\\style_detay.css",
-              "ToolTip": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\style_detay.css",
-              "RelativeToolTip": "motosikletturuprojesi.client\\src\\style_detay.css",
-              "ViewState": "AQIAAMgAAAAAAAAAAAAuwP8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-29T15:24:50.121Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "style_home.css",
-              "DocumentMoniker": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\style_home.css",
-              "RelativeDocumentMoniker": "motosikletturuprojesi.client\\src\\style_home.css",
-              "ToolTip": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\style_home.css",
-              "RelativeToolTip": "motosikletturuprojesi.client\\src\\style_home.css",
-              "ViewState": "AQIAACMEAAAAAAAAAAAuwDQEAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-29T15:24:36.449Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\MotosikletTuruProjesi.Server\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MotosikletTuruProjesi.Server\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\MotosikletTuruProjesi.Server\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MotosikletTuruProjesi.Server\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T14:08:00.611Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Etkinliklerim.jsx",
-              "DocumentMoniker": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\pages\\Etkinliklerim.jsx",
-              "RelativeDocumentMoniker": "motosikletturuprojesi.client\\src\\pages\\Etkinliklerim.jsx",
-              "ToolTip": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\pages\\Etkinliklerim.jsx",
-              "RelativeToolTip": "motosikletturuprojesi.client\\src\\pages\\Etkinliklerim.jsx",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAHIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-12-29T15:23:53.723Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TurEkle.jsx",
-              "DocumentMoniker": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\pages\\TurEkle.jsx",
-              "RelativeDocumentMoniker": "motosikletturuprojesi.client\\src\\pages\\TurEkle.jsx",
-              "ToolTip": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\pages\\TurEkle.jsx",
-              "RelativeToolTip": "motosikletturuprojesi.client\\src\\pages\\TurEkle.jsx",
-              "ViewState": "AQIAAKsAAAAAAAAAAAAuwNIAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-12-29T15:19:04.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Profil.jsx",
-              "DocumentMoniker": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\pages\\Profil.jsx",
-              "RelativeDocumentMoniker": "motosikletturuprojesi.client\\src\\pages\\Profil.jsx",
-              "ToolTip": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\pages\\Profil.jsx",
-              "RelativeToolTip": "motosikletturuprojesi.client\\src\\pages\\Profil.jsx",
-              "ViewState": "AQIAANYAAAAAAAAAAAAAABABAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-12-29T14:57:40.455Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TurDetay.jsx",
-              "DocumentMoniker": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\pages\\TurDetay.jsx",
-              "RelativeDocumentMoniker": "motosikletturuprojesi.client\\src\\pages\\TurDetay.jsx",
-              "ToolTip": "C:\\Users\\Yavuz\\source\\repos\\MotosikletTuruProjesi\\motosikletturuprojesi.client\\src\\pages\\TurDetay.jsx",
-              "RelativeToolTip": "motosikletturuprojesi.client\\src\\pages\\TurDetay.jsx",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAAAKoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-12-29T14:51:19.605Z"
             }
           ]
         }

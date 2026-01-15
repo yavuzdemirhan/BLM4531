@@ -45,6 +45,8 @@ function Giris() {
                 // Formdan gelen e-posta
                 sessionStorage.setItem('userEmail', formData.email);
 
+                sessionStorage.setItem('role', data.role);
+
                 
                 navigate('/');
 

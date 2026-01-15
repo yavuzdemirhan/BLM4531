@@ -12,18 +12,25 @@ import Profil from './pages/Profil';
 import TurDetay from './pages/TurDetay';
 import Etkinliklerim from './pages/Etkinliklerim';
 import TurEkle from './pages/TurEkle';
+import AdminPanel from './pages/AdminPanel';
 
 function App() {
     const location = useLocation();
     const [currentUser, setCurrentUser] = useState(null);
 
+    // 1. YENİ: Rol bilgisini tutacak state
+    const [userRole, setUserRole] = useState(null);
+
     useEffect(() => {
-        
         const username = sessionStorage.getItem('username');
+        const role = sessionStorage.getItem('role'); // 2. YENİ: Rolü session'dan oku
+
         if (username) {
             setCurrentUser(username);
+            setUserRole(role); // State'e kaydet
         } else {
             setCurrentUser(null);
+            setUserRole(null);
         }
     }, [location]);
 
@@ -38,7 +45,16 @@ function App() {
                 <nav className="navbar">
                     <Link to="/" onClick={() => window.scrollTo(0, 0)}>ANA SAYFA</Link>
                     <Link to="/#bestbikes">TURLAR</Link>
+
                     {currentUser && <Link to="/etkinliklerim">ETKİNLİKLERİM</Link>}
+
+                    {/* --- 3. YENİ: SADECE ADMIN GÖRSÜN --- */}
+                    {userRole === 'Admin' && (
+                        <Link to="/admin" style={{ color: 'red', fontWeight: 'bold', border: '1px solid red', padding: '5px 10px', borderRadius: '5px' }}>
+                            ADMİN PANELİ 🛡️
+                        </Link>
+                    )}
+
                     <Link to="/yeni" onClick={() => window.scrollTo(0, 0)}>YENİ MOTORCULAR</Link>
                     <Link to="/ipuclari" onClick={() => window.scrollTo(0, 0)}>SÜRÜŞ İPUÇLARI</Link>
                     <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>İLETİŞİM</Link>
@@ -88,6 +104,7 @@ function App() {
                     <Route path="/tur-detay/:id" element={<TurDetay />} />
                     <Route path="/etkinliklerim" element={<Etkinliklerim />} />
                     <Route path="/tur-ekle" element={<TurEkle />} />
+                    <Route path="/admin" element={<AdminPanel />} />
                 </Routes>
             </main>
 

@@ -200,15 +200,29 @@ function TurDetay() {
     const handleSendComment = async (e) => {
         e.preventDefault();
         if (!commentText) return;
-        const res = await fetch('/api/Comments', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ TourId: id, Username: username, Content: commentText })
-        });
-        if (res.ok) {
-            setCommentText("");
-            const commentsRes = await fetch(`/api/Comments/${id}`);
-            setComments(await commentsRes.json());
+
+        try {
+            const res = await fetch('/api/Comments', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ TourId: id, Username: username, Content: commentText })
+            });
+
+            if (res.ok) {
+                // BAŞARILI DURUMU
+                setCommentText("");
+                alert("✅ Yorumunuz alındı! Admin onayından sonra yayınlanacaktır.");
+            } else {
+                // HATA DURUMU (Backend 'BadRequest' döndürdüyse)
+                // Backend'den gelen "Bu tura sadece 1 yorum yapabilirsiniz" yazısını okuyoruz
+                const errorText = await res.text();
+
+                // Ve kullanıcıya uyarı olarak gösteriyoruz
+                alert("⚠️ " + errorText); // Çıktı: "⚠️ Bu tura sadece 1 yorum yapabilirsiniz."
+            }
+        } catch (error) {
+            console.error("Yorum gönderme hatası:", error);
+            alert("Sunucuyla bağlantı kurulamadı.");
         }
     };
 
